@@ -1,3 +1,4 @@
+# Baekjoon 1316 (미완)
 t = int(input())
 count =0
  

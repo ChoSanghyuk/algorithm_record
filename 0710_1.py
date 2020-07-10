@@ -1,3 +1,4 @@
+# 1712
 cost_f , cost_v, price = map(int, input().split())
 
 if price <= cost_v:
