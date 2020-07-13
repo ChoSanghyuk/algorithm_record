@@ -3,7 +3,7 @@ t = int(input())
 count =0
  
 for _ in range(t):
-    groupWord = False
+    groupWord = True
     string = input()
     
     if len(string) <2:
@@ -17,6 +17,7 @@ for _ in range(t):
             else:
                 groupWord = False
                 break
+        
     if groupWord == True:
         count +=1
  
