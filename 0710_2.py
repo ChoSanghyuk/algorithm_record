@@ -1,4 +1,4 @@
-# Baekjoon 1316 (미완)
+# Baekjoon 1316 (수정)
 t = int(input())
 count =0
  
