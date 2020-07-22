@@ -1,4 +1,4 @@
-# Baekjoon 10250
+#Baekjoon 10250
 i = int(input())
 
 for _ in range(i):
