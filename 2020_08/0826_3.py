@@ -6,10 +6,9 @@ def dis(a,b):
     else:
         return dis(a-1,b) + dis(a,b-1)
 
-
 def solution(m,n,arr):
     total = dis(m,n)
     cant=0
     for i in arr:
-        cant += dis(i[0], i[1])*dis(m-i[0]+1 , n-i[1]+1)
+        cant += (dis(i[0], i[1])*dis(m-i[0]+1 , n-i[1]+1))
     return total - cant
